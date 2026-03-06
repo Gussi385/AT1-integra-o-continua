@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Rodar build
-        run: npm build
+        run: npm run build
 
       - name: Testes unitarios
         run: npm test    
